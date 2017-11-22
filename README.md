@@ -22,6 +22,7 @@ Name comes from a fictional character [Marvin](https://en.wikipedia.org/wiki/Mar
 * [Universal dev mode](#user-content-universal-dev-mode)
 * [Universal build (production)](#user-content-universal-build-production)
 * [Removing server rendering related stuff](#user-content-removing-server-rendering-related-stuff)
+* [Docker](#docker)
 * [Linting](#user-content-linting)
 * [Git hooks](#user-content-git-hooks)
 * [Misc](#user-content-misc)
@@ -201,6 +202,15 @@ Also open `source/js/config/store.js` and remove lines marked with the following
 Client app is going to work without this but, it will include few unused packages.
 Therefore it is better to remove them.
 
+## Docker
+
+Setup: 
+
+```bash
+docker-compose build
+docker-compose pull
+docker-compose up -d
+```
 
 ## Linting
 
